@@ -1,10 +1,10 @@
+import img from "../src/lense.png"
 export default function App() {
   return (
     <div>
       <div class="mx-4 text-4xl font-bold">검색</div>
        <div class=" bg-gray-200 rounded mx-4">
-       <img src="/g돋보기.png" alt="g"/>
-       
+        <img src={img} alt="a"/>
         <div class="text-gray-400 text-xl mx-6">게임, 앱, 스토리 등</div>
        </div>
        
